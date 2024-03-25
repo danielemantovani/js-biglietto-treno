@@ -20,7 +20,29 @@ const ticket = 0.21; //number |null
 
 
 // 2. ESECUZIONE LOGICA
+
+// calcolo del prezzo
 const ticketPirce = userKm * ticket
+console.log(ticketPirce);
+
+// calcolo del prezzo se l'utente ha diritto allo sconto
+let message = ""
+
+if (userAge < 19) {
+    finalPrice = ticketPirce * 0.8;
+    message = "Hai diritto ad uno sconto, il prezzo finale del biglietto è di €";
+} else if (userAge > 64) {
+    finalPrice = ticketPirce * 0.6;
+    message = "Hai diritto ad uno sconto, il prezzo finale del biglietto è di €";
+}
+
+console.log(finalPrice);
+
+
+// 3. OUTPUT
+
+document.getElementById ("finalPrice").innerHTML = message + finalPrice.toFixed(2);
+
 
 
 

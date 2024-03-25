@@ -21,7 +21,7 @@ const ticket = 0.21; //number |null
 
 // 2. ESECUZIONE LOGICA
 
-// calcolo del prezzo
+// calcolo del prezzo al netto degli sconti
 const ticketPirce = userKm * ticket
 console.log(ticketPirce);
 

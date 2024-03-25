@@ -15,6 +15,8 @@ CALCOLARE IL PREZZO TOTALE DEL VIAGGIO TENENDO IN CONSIDERAZIONE I KM CHE L'UTEN
         se(l'utente ha più di 65 anni applicare uno sconto del 40%)
         altrimenti (non applicare lo sconto)
 
+        altrimenti non applicare nessuno sconto
+
 
 3. OUTPUT
     - [ ] stampa del prezzo con due decimali dopo la virgola
